@@ -9,10 +9,17 @@
   <body>
     <h1></h1>
     <div class="divOne">
-      <section>
-        <input type="text" id="inputText" placeholder="Add a new task..." />
-        <button id="addButton">Add</button>
-      </section>
+      <form>
+        <input
+          type="text"
+          id="inputText"
+          placeholder="Add a new task..."
+          required />
+        <button type="submit" id="addButton">Add</button>
+      </form>
+      <div class="taskList">
+        <ul id="taskList"></ul>
+      </div>
     </div>
   </body>
   <script src="index.js"></script>
